@@ -13,7 +13,8 @@ const kButtonColor = Color(0xFFF45170); //#00C3A0
 const kBlueColor = Color(0xFF2784FF); //#00C3A0
 const kGreyColor = Color(0xff9c9c9cf); //#00C3A0
 const kHintColor = Color(0xFFD3D3D3); //#00C3A0
-
+const kInfoColor = Color(0xFFF2F0F1); //#00C3A0
+//#F2F0F1
 //todo: dark theme color
 const kDarkAppColor = Color(0xFF112031); //
 const kDarkAppBarColor = Color(0xFF112031); //
@@ -105,3 +106,5 @@ const kOnboardB =
     'I confirm that I am a Muslim, and my intention for joining To-nikah is solely to seek marriage through a halal and meaningful path.';
 const kOnboardC =
     'I agree to respect the values of this community and uphold the';
+
+const kBio = "Seeking a partner who shares my values and zest for life. I'm a 28-year-old professional, passionate about hiking, learning new things, reading Islamic history.\n\nI strive to live a life guided by Islamic principles, with a focus on personal growth and community. Looking for someone genuine, kind, and ready to build a meaningful future together.";

@@ -61,6 +61,7 @@ class CustomTextButton extends StatelessWidget {
     this.height = 45,
     this.width = 80,
     this.icon,
+    this.borderWidth = 2
   });
 
   final String btnName;
@@ -74,6 +75,8 @@ class CustomTextButton extends StatelessWidget {
   final double width;
   final Color btnColor;
   final Widget? icon;
+  final double?borderWidth;
+
 
   @override
   Widget build(BuildContext context) {
@@ -85,7 +88,7 @@ class CustomTextButton extends StatelessWidget {
         minimumSize: Size(width, height),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(radius),
-          side: BorderSide(color: borderColor,width: 2),
+          side: BorderSide(color: borderColor,width: borderWidth ?? 2),
         ),
       ),
       label: CustomTextWidget(

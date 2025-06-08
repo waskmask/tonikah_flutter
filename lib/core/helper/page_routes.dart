@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:to_nikah_app/presentation/screens/common/edit_profile_screen.dart';
 import 'package:to_nikah_app/presentation/screens/common/home_screen.dart';
+import 'package:to_nikah_app/presentation/screens/mobile/edit_profile_mobile_screen.dart';
 import 'package:to_nikah_app/presentation/screens/mobile/register/religious_profile_mobile_screen.dart';
 
 import '../../presentation/screens/common/basic_profile_screen.dart';
@@ -114,6 +116,12 @@ final GoRouter kGoRouter = GoRouter(
       path: HomeScreen.id,
       builder: (context, state) {
         return HomeScreen();
+      },
+    ),
+    GoRoute(
+      path: EditProfileScreen.id,
+      builder: (context, state) {
+        return EditProfileScreen();
       },
     ),
   ],
